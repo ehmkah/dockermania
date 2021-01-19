@@ -10,4 +10,14 @@ Collection of some useful docker images
 
 == Howto build and publish them
 
-*
+* images are build via docker-hub
+* change checkout version for doctoolchain to a commit hash
+* commit the change to github
+* wait until docker hub built the image
+* pull the image local - `docker pull ehmkah/doctoolchain_clone:latest`
+*`add new tage - `docker tag ehmkah/doctoolchain_clone:latest ehmkah/doctoolchain_clone:TAG_NAME`
+** e.g. docker tag ehmkah/doctoolchain_clone:latest ehmkah/doctoolchain_clone:2021_01`
+* push new tag - docker push ehmkah/doctoolchain_clone:TAG_NAME
+** e.g. `docker push ehmkah/doctoolchain_clone:2021-01`
+
+
