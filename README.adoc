@@ -1,0 +1,13 @@
+== dockermania
+
+Collection of some useful docker images
+
+=== openjdk_dockercompose_postgresqlclient
+* image which has an openjdk, dockercompose and a postgresql client
+
+=== doctoolchain
+* a specific version of doctoolchain because they need so long to make a release
+
+== Howto build and publish them
+
+*
