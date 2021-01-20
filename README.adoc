@@ -7,6 +7,8 @@ Collection of some useful docker images
 
 === doctoolchain
 * a specific version of doctoolchain because they need so long to make a release
+* Tags have the following pattern year-month-commit_hash_of_doctoolchain_master
+** eg: 2021_01_c680488 (container was build in janauary 2021 and includes version https://github.com/docToolchain/docToolchain/commit/c680488ac9e2be5036080fa77ab72605d2f8dd88[c680488] of doctoolchain)
 
 == Howto build and publish them
 
